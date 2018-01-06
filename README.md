@@ -1,7 +1,7 @@
 Masschusetts Bay Transit Authority Performance Tracker Scraper
 -------------------------------------------------------------
 
-This script crawls the (MBTA Back On Track Website)[www.mbtabackontrack.com]
+This script crawls the [MBTA Back On Track Website](www.mbtabackontrack.com)
 and pulls key performance metrics from it.
 
 Specifically, all Green, Red, Orange, and Blue line reliability metrics are
