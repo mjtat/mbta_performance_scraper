@@ -10,5 +10,11 @@ through the cities that the MBTA serves.
 
 This script is originally adapted from one I used for work while at the City
 of Boston. That version of this script is runs on a schedule where it pulls 
-MBTA reliability metrics daily. Those data are then pulled into a Tableau dashboard,
+MBTA reliability metrics daily. The script originally writes this data to a
+PostgreSQL database for use by other analysts. The odbc driver, connection string,
+and write code can be easily adapted for other platforms (e.g., replace psycopg2 
+with pymssql to write to MS SQL Server).
+
+
+Originally, data was pulled from PostgreSQL, into a Tableau dashboard,
 which appears in Mayor Marty Walsh's office for his personal viewing.
